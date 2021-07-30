@@ -6,16 +6,17 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>ProcraStation</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Your station, where you come to procrastinate. ;)
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://osamakashif.dev"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Osama's website ;)
         </a>
       </header>
     </div>
