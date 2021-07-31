@@ -32,21 +32,27 @@
   }
 
   .Main-info {
+      margin-top:30px;
       display:flex;
       align-items: flex-start;
       justify-content: space-evenly;
       flex-direction:row;
-      background-color: #E5E5E5;
+      background-color: #FFFF;
       width: 100%;
+  }
+  b {
+    margin-bottom: 5px;
   }
   label {
     display:inline-block;
     float:left;
     clear:left;
     text-align:right;
+    width:250px;
   }
   input {
     display:inline-block;
+    width:175px;
   }
   .Main-login {
     display:flex;
@@ -54,11 +60,19 @@
     width:33%;
   }  
   .Main-register {
+    margin-right:120px;
     display:flex;
     flex-direction:column;
     width:33%;
   }
-  
+  .Main-loginButton, .Main-registerButton {
+    display:inline-block;
+    width:175px;
+    margin-top:10px;
+    margin-left:295px;
+    border-radius: 5px;
+    background-color: #B3E5FC;
+  }
   @keyframes App-logo-spin {
     from {
       transform: rotate(0deg);

@@ -21,7 +21,7 @@ function Main() {
                     <label for="pass">Password:</label>
                     <input type="text"id="pass"/>
                 </div>
-                <button className="Main-button">Button</button>
+                <button className="Main-loginButton">Log In</button>
             </form>
             <form className="Main-register">
                 <b>Register</b>
@@ -41,10 +41,9 @@ function Main() {
                     <label for="confirmPass">Confirm Password:</label>
                     <input type="text"id="pass"/>
                 </div>
-                <button className="Main-button">Register</button>
+                <button className="Main-registerButton">Register</button>
             </form>
         </div>
-        <button>Procrastinate</button>
     </div>
     );
 }
