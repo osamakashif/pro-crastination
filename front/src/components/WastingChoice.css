@@ -18,14 +18,20 @@
     border: none;
     border-radius: 5%;
     color: black;
-    padding: 5%;
-    margin: 5%;
+    padding: 5rem;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 20px;
     cursor: pointer;
-    width: 30%;
+    flex: 1;
+    display:inline-grid;
+}
+
+.Buttons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction:row;
+    gap: 2rem;
 }
 
 .WastingOptions :focus {
@@ -37,6 +43,11 @@
     background-color: #FCB3B3;
 }
 
-#Efficient {
+#YourWay {
     background-color: #B3E5FC;
 }
+
+#Efficient {
+    background-color: #B3FCB6;
+}
+
