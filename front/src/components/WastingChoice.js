@@ -1,13 +1,13 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useParams } from 'react-router-dom';
 import './WastingChoice.css';
 //import './Main.css';
-
-const WastingChoice = ({ username = "" }) => {
+ 
+const WastingChoice = ({ user }) => {
     return (
         <div className="WastingChoice">
             <header className="WastingChoice-header">
-                <h1>Hi {username}</h1>
+                <h1>Hi {user}</h1>
             </header>
             <h1>What would you like to do today?</h1>
             <div className="Buttons">
