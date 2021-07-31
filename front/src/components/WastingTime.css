@@ -1,89 +1,89 @@
-.clockthing {
+.Clock {
     margin: auto;
     margin-top: 50px;
-    width:40rem;
+    width:40%;
     position: relative;
 }
 
-#clockthing,
-.LinkedIn {
+#Clock,
+.Clock12 {
     position: absolute;
     top: 20%;
     left: 48%;
     z-index: 1;
 }
-#clockthing,
-.Facebook {
+#Clock,
+.Clock1 {
     position: absolute;
     top: 72%;
     left: 48%;
     z-index: 1;
 }
-#clockthing,
-.Discord {
+#Clock,
+.Clock2 {
     position: absolute;
     top: 25%;
     left: 41%;
     z-index: 1;
 }
-#clockthing,
-.Snapchat {
+#Clock,
+.Clock3 {
     position: absolute;
     top: 24%;
     left: 55%;
     z-index: 1;
 }
-#clockthing,
-.Pinterest {
+#Clock,
+.Clock4 {
     position: absolute;
     top: 68%;
     left: 41%;
     z-index: 1;
 }
-#clockthing,
-.Reddit {
+#Clock,
+.Clock5 {
     position: absolute;
     top: 68%;
     left: 55%;
     z-index: 1;
 }
-#clockthing,
-.Spotify {
+#Clock,
+.Clock6 {
     position: absolute;
     top: 59%;
     left: 37%;
     z-index: 1;
 }
-#clockthing,
-.Youtube {
+#Clock,
+.Clock7 {
     position: absolute;
     top: 59%;
     left: 59%;
     z-index: 1;
 }
-#clockthing,
-.Tumblr {
+#Clock,
+.Clock8 {
     position: absolute;
     top: 33%;
     left: 37%;
     z-index: 1;
 }
-#clockthing,
-.Instagram {
+#Clock,
+.Clock9 {
     position: absolute;
     top: 33%;
     left: 59%;
     z-index: 1;
 }
-#clockthing,
-.Whatsapp {
+#Clock,
+.Clock10 {
     position: absolute;
     top: 45%;
     left: 36%;
     z-index: 1;
 }
 #clockthing,
-.Soundcloud {
+.Clock11 {
     position: absolute;
     top: 45%;
     left: 60%;
