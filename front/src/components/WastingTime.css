@@ -1,91 +1,79 @@
-.clockthing {
+.Clock {
     margin: auto;
-    margin-top: 50px;
-    width:40rem;
+    margin-top: 4rem;
+    width:40%;
     position: relative;
 }
 
-#clockthing,
-.LinkedIn {
+.Clock12 {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    z-index: 1;
+}
+.Clock1 {
     position: absolute;
     top: 20%;
-    left: 48%;
-    z-index: 1;
-}
-#clockthing,
-.Facebook {
-    position: absolute;
-    top: 72%;
-    left: 48%;
-    z-index: 1;
-}
-#clockthing,
-.Discord {
-    position: absolute;
-    top: 25%;
-    left: 41%;
-    z-index: 1;
-}
-#clockthing,
-.Snapchat {
-    position: absolute;
-    top: 24%;
-    left: 55%;
-    z-index: 1;
-}
-#clockthing,
-.Pinterest {
-    position: absolute;
-    top: 68%;
-    left: 41%;
-    z-index: 1;
-}
-#clockthing,
-.Reddit {
-    position: absolute;
-    top: 68%;
-    left: 55%;
-    z-index: 1;
-}
-#clockthing,
-.Spotify {
-    position: absolute;
-    top: 59%;
-    left: 37%;
-    z-index: 1;
-}
-#clockthing,
-.Youtube {
-    position: absolute;
-    top: 59%;
-    left: 59%;
-    z-index: 1;
-}
-#clockthing,
-.Tumblr {
-    position: absolute;
-    top: 33%;
-    left: 37%;
-    z-index: 1;
-}
-#clockthing,
-.Instagram {
-    position: absolute;
-    top: 33%;
-    left: 59%;
-    z-index: 1;
-}
-#clockthing,
-.Whatsapp {
-    position: absolute;
-    top: 45%;
-    left: 36%;
-    z-index: 1;
-}
-#clockthing,
-.Soundcloud {
-    position: absolute;
-    top: 45%;
     left: 60%;
+    z-index: 1;
+}
+.Clock2 {
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    z-index: 1;
+}
+.Clock3 {
+    position: absolute;
+    top: 45%;
+    left: 75%;
+    z-index: 1;
+}
+.Clock4 {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    z-index: 1;
+}
+.Clock5 {
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    z-index: 1;
+}
+.Clock6 {
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    z-index: 1;
+}
+.Clock7 {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    z-index: 1;
+}
+.Clock8 {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    z-index: 1;
+}
+.Clock9 {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    z-index: 1;
+}
+.Clock10 {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    z-index: 1;
+}
+.Clock11 {
+    position: absolute;
+    top: 20%;
+    left: 30%;
     z-index: 1;
 }

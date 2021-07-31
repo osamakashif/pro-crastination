@@ -13,7 +13,7 @@ const WastingChoice = ({ user }) => {
             <div className="Buttons">
                 <NavLink to="/Wasting_Time"  className="WastingOptions" id="OnlyWaste">Waste Time</NavLink>
                 <NavLink to="/"className="WastingOptions" id="YourWay">Waste Time <i>your way</i></NavLink>
-                <NavLink to="/" className="WastingOptions" id="Efficient">Waste Time <i>efficiently</i></NavLink>
+                <NavLink to="/Wasting_Time_More_Efficiently" className="WastingOptions" id="Efficient">Waste Time <i>efficiently</i></NavLink>
             </div>
         </div>
     );

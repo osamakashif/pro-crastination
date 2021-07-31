@@ -1,11 +1,13 @@
 .Main {
     text-align: center;
+    animation: fadein 1s;
   }
   
   .Main-logo {
     margin-top:1%;
     height: 10%;
     pointer-events: none;
+    animation: App-logo-spin infinite 20s linear;
   }
   
   @media (prefers-reduced-motion: no-preference) {
@@ -81,6 +83,15 @@
     border-color: #B3E5FC;
     padding: 0.2%;
     cursor: pointer;
+    transition: transform .5s ease-out;
+  }
+
+  .Main-loginButton:hover, .Main-registerButton:hover, .Main-wasteTime:hover {
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
   }
 
   .Main-wasteTime {
@@ -92,7 +103,9 @@
     border-color: #B3E5FC;
     font-size:200%;
     cursor: pointer;
+    transition: transform .5s ease-out;
   }
+
   @keyframes App-logo-spin {
     from {
       transform: rotate(0deg);
@@ -102,3 +115,9 @@
     }
   }
   
+  @keyframes fadein {
+    from { opacity: 0; margin-top:-1rem; }
+    to   { opacity: 1; margin-top:0;}
+  }
+
+

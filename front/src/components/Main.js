@@ -27,7 +27,6 @@ function Main({ user, setUser }) {
             document.getElementById("loginName").value = "";
             document.getElementById("loginPass").value = "";
         }
-
     }
 
     //This function is executed when user clicks on register
