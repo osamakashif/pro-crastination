@@ -3,6 +3,7 @@
   }
   
   .Main-logo {
+    margin-top:1%;
     height: 10%;
     pointer-events: none;
   }
@@ -44,34 +45,40 @@
     margin-bottom: 5px;
   }
   label {
-    display:inline-block;
+    margin-top:1%;
+    display:table;
     float:left;
     clear:left;
     text-align:right;
     width:250px;
   }
   input {
-    display:inline-block;
-    width:175px;
+    margin-top:1.4%;
+    display:table;
+    width:33%;
+    border-radius:25px;
+    border-width:1px;
   }
   .Main-login {
     display:flex;
     flex-direction:column;
-    width:33%;
+    width:100%;
+    margin-left:9%;
   }  
   .Main-register {
     margin-right:120px;
     display:flex;
     flex-direction:column;
-    width:33%;
+    width:100%;
   }
   .Main-loginButton, .Main-registerButton {
-    display:inline-block;
-    width:175px;
-    margin-top:10px;
-    margin-left:295px;
+    display:table;
+    width:32%;
+    margin-top:2%;
+    margin-left:40%;
     border-radius: 5px;
     background-color: #B3E5FC;
+    border-color: #B3E5FC;
   }
   @keyframes App-logo-spin {
     from {

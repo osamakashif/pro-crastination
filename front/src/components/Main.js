@@ -14,11 +14,11 @@ function Main() {
             <form className="Main-login">
                 <b>Log In</b>
                 <div className="Main-loginName">
-                    <label for="name">Username:</label>
+                    <label for="name">Username:&nbsp;&nbsp;</label>
                     <input type="text" id="name"/>
                 </div>
                 <div className="Main-loginPass">
-                    <label for="pass">Password:</label>
+                    <label for="pass">Password:&nbsp;&nbsp;</label>
                     <input type="text"id="pass"/>
                 </div>
                 <button className="Main-loginButton">Log In</button>
@@ -26,19 +26,19 @@ function Main() {
             <form className="Main-register">
                 <b>Register</b>
                 <div className="Main-email">
-                    <label for="email">Email:</label>
+                    <label for="email">Email:&nbsp;&nbsp;</label>
                     <input type="text" id="email"/>
                 </div>
                 <div className="Main-registerName">
-                    <label for="name">Username:</label>
+                    <label for="name">Username:&nbsp;&nbsp;</label>
                     <input type="text" id="name"/>
                 </div>
                 <div className="Main-registerPass">
-                    <label for="pass">Password:</label>
+                    <label for="pass">Password:&nbsp;&nbsp;</label>
                     <input type="text"id="pass"/>
                 </div>
                 <div className="Main-confirmPass">
-                    <label for="confirmPass">Confirm Password:</label>
+                    <label for="confirmPass">Confirm Password:&nbsp;&nbsp;</label>
                     <input type="text"id="pass"/>
                 </div>
                 <button className="Main-registerButton">Register</button>
