@@ -5,7 +5,7 @@ const port = 4000
 var bodyParser = require('body-parser')
 var db;
 
-//Establish Connection
+//Establish Connection with database
 MongoClient.connect('mongodb://localhost:27017/ProcraStation', function (err, database) {
    if (err) 
    	  throw err
@@ -24,17 +24,34 @@ app.get('/', (req, res) => {
 
 //Searches for login in db
 app.post('/login', (req, res) => {
-  console.log('Got body:', req.body);
-  res.sendStatus(200);
+  db.collection('Users').findOne(req.body, function (err, result) {
+    if (err)
+      res.send('Error');
+    else
+      if (result == undefined){
+        res.send("User not found, please sign up")
+      } else {
+        res.send("login successful")
+      }
+  });
 })
 
 //Adds login credentials to db
-app.post('/register', (req, res) => {
-  db.collection('Users').insert(req.body, function (err, result) {
+app.post('/signup', (req, res) => {
+  db.collection('Users').findOne(req.body, function (err, result) {
     if (err)
-       res.send('Error');
+      res.send('Error');
     else
-      res.send('Success');
+      if (result == undefined){
+        db.collection('Users').insert(req.body, function (err, result) {
+          if (err)
+            res.send('Error');
+          else
+            res.send('Registration Successful');
+        });
+      } else {
+        res.send("User already exists")
+      }
   });
 })
 
