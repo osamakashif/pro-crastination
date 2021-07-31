@@ -1,6 +1,91 @@
 .clockthing {
     margin: auto;
     margin-top: 50px;
-    width:40%;
-    height:10%;
+    width:40rem;
+    position: relative;
+}
+
+#clockthing,
+.LinkedIn {
+    position: absolute;
+    top: 20%;
+    left: 48%;
+    z-index: 1;
+}
+#clockthing,
+.Facebook {
+    position: absolute;
+    top: 72%;
+    left: 48%;
+    z-index: 1;
+}
+#clockthing,
+.Discord {
+    position: absolute;
+    top: 25%;
+    left: 41%;
+    z-index: 1;
+}
+#clockthing,
+.Snapchat {
+    position: absolute;
+    top: 24%;
+    left: 55%;
+    z-index: 1;
+}
+#clockthing,
+.Pinterest {
+    position: absolute;
+    top: 68%;
+    left: 41%;
+    z-index: 1;
+}
+#clockthing,
+.Reddit {
+    position: absolute;
+    top: 68%;
+    left: 55%;
+    z-index: 1;
+}
+#clockthing,
+.Spotify {
+    position: absolute;
+    top: 59%;
+    left: 37%;
+    z-index: 1;
+}
+#clockthing,
+.Youtube {
+    position: absolute;
+    top: 59%;
+    left: 59%;
+    z-index: 1;
+}
+#clockthing,
+.Tumblr {
+    position: absolute;
+    top: 33%;
+    left: 37%;
+    z-index: 1;
+}
+#clockthing,
+.Instagram {
+    position: absolute;
+    top: 33%;
+    left: 59%;
+    z-index: 1;
+}
+#clockthing,
+.Whatsapp {
+    position: absolute;
+    top: 45%;
+    left: 36%;
+    z-index: 1;
+}
+#clockthing,
+.Soundcloud {
+    position: absolute;
+    top: 45%;
+    left: 60%;
+    z-index: 1;
 }
