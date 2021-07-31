@@ -2,10 +2,15 @@
     animation: fadein 1s;
 }
 
+h1 {
+    text-align: center;
+    margin:auto;
+}
+
 .Clock {
     margin: auto;
-    margin-top: 4rem;
-    width:40%;
+    margin-top: 2rem;
+    width:40rem;
     position: relative;
 }
 
@@ -84,6 +89,8 @@
 
 .Clock1, .Clock2, .Clock3, .Clock4, .Clock5, .Clock6, .Clock7, .Clock8, .Clock9, .Clock10, .Clock11, .Clock12 {
     transition: transform .5s ease-out;
+    display:inline-block;
+    width:4rem;
 }
 
 .Clock1:hover, .Clock2:hover, .Clock3:hover, .Clock4:hover, .Clock5:hover, .Clock6:hover, .Clock7:hover, .Clock8:hover, .Clock9:hover, .Clock10:hover, .Clock11:hover, .Clock12:hover {
