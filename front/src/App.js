@@ -12,7 +12,7 @@ function App() {
           <Main />
         </Route>
         <Route path="/wasting_choice">
-          <WastingChoice />
+          <WastingChoice username="test" />
         </Route>
       </ Switch>
     </Router>
