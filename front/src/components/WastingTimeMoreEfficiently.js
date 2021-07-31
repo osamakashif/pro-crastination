@@ -7,6 +7,9 @@ function WastingTimeMoreEfficiently (){
         <div className="App">
             <body>
                 <h1>It's Procrastination Time!</h1>
+                <div className="textbox">
+                    Tooltip Box
+                </div>
                 <div className="Clock">
                     <ana-clock></ana-clock>
 
