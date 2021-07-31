@@ -34,7 +34,7 @@ async function register(event) {
             alert("Passwords do not match")
         }
     } catch (err){
-        alert(err)
+        alert("Error signing up")
     } finally {
         document.getElementById("registerName").value = null
         document.getElementById("registerPass").value = null
@@ -61,7 +61,7 @@ function Main() {
                 </div>
                 <div className="Main-loginPass">
                     <label for="pass">Password:&nbsp;&nbsp;</label>
-                    <input type="text"id="loginPass"/>
+                    <input type="text" type="password" id="loginPass"/>
                 </div>
                 <button className="Main-loginButton" onClick={login}>Log In</button>
             </form>
@@ -73,11 +73,11 @@ function Main() {
                 </div>
                 <div className="Main-registerPass">
                     <label for="pass">Password:&nbsp;&nbsp;</label>
-                    <input type="text"id="registerPass"/>
+                    <input type="text" type="password" id="registerPass"/>
                 </div>
                 <div className="Main-confirmPass">
                     <label for="confirmPass">Confirm Password:&nbsp;&nbsp;</label>
-                    <input type="text"id="confirmPass"/>
+                    <input type="text" type="password" id="confirmPass"/>
                 </div>
                 <button className="Main-registerButton" onClick={register}>Register</button>
             </form>

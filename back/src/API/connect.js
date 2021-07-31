@@ -62,7 +62,8 @@ app.post('/signup', (req, res) => {
             console.log(res.statusCode)
         });
       } else {
-        res.send("User already exists")
+        res.status(409).end("User already exists, please log in instead!")
+        console.log(res.statusCode)
       }
   });
 })
