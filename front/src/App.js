@@ -5,16 +5,18 @@ import WastingChoice from './components/WastingChoice';
 import WastingTime from './components/WastingTime';
 import WastingTimeEfficiently from './components/WastingTimeEfficiently';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { useState } from 'react';
 
 function App() {
+  const [user, setUser] = useState('')
   return (
     <Router>
       <Switch>
         <Route exact path="/">
-          <Main />
+          <Main user = {user} setUser = {setUser} />
         </Route>
         <Route path="/Wasting_Choice">
-          <WastingChoice username="test" />
+          <WastingChoice user = {user} />
         </Route>
         <Route path="/Wasting_Time">
           <WastingTime />
