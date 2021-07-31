@@ -1,3 +1,5 @@
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 import logo from './pslogo.png';
 import './Main.css';
 
@@ -45,7 +47,7 @@ function Main() {
                 <button className="Main-registerButton">Register</button>
             </form>
         </div>
-        <button className="Main-wasteTime">...or just waste time!</button>
+        <NavLink to="/Wasting_Time"><button className="Main-wasteTime">...or just waste time!</button></NavLink>
     </div>
     );
 }

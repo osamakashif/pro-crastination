@@ -80,6 +80,7 @@
     background-color: #B3E5FC;
     border-color: #B3E5FC;
     padding: 0.2%;
+    cursor: pointer;
   }
 
   .Main-wasteTime {
@@ -90,6 +91,7 @@
     background-color: #B3E5FC;
     border-color: #B3E5FC;
     font-size:200%;
+    cursor: pointer;
   }
   @keyframes App-logo-spin {
     from {
