@@ -79,6 +79,17 @@
     border-radius: 5px;
     background-color: #B3E5FC;
     border-color: #B3E5FC;
+    padding: 0.2%;
+  }
+
+  .Main-wasteTime {
+    margin-top:3%;
+    padding:0.5%;
+    width:50%;
+    border-radius: 5px;
+    background-color: #B3E5FC;
+    border-color: #B3E5FC;
+    font-size:200%;
   }
   @keyframes App-logo-spin {
     from {

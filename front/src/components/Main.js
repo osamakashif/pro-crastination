@@ -1,5 +1,6 @@
 import logo from './pslogo.png';
 import './Main.css';
+
 function Main() {
     return (
     <div className="Main">
@@ -44,6 +45,7 @@ function Main() {
                 <button className="Main-registerButton">Register</button>
             </form>
         </div>
+        <button className="Main-wasteTime">...or just waste time!</button>
     </div>
     );
 }
