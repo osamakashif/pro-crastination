@@ -16,15 +16,15 @@
 
 .WastingOptions {
     border: none;
-    display: block;
     border-radius: 5%;
     color: black;
-    padding: 5%;
+    padding: 5rem;
     text-align: center;
     text-decoration: none;
     font-size: 20px;
     cursor: pointer;
     flex: 1;
+    display:inline-grid;
 }
 
 .Buttons {
