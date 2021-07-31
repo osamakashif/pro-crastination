@@ -1,4 +1,11 @@
-.Trash:hover, :focus {
+.ListItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Trash:hover, .Trash:focus {
     color: red;
     cursor: pointer;
 }

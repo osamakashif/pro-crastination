@@ -9,7 +9,7 @@ const WastingTimeEfficiently = ({ username = "" }) => {
             <header className="WastingChoice-header">
                 <h1>Hi {username}</h1>
             </header>
-            <ListItem item="Deletable"/>
+            <List list={["Prot","Pjij"]}/>
         </div>
     );
 }
