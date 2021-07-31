@@ -1,0 +1,42 @@
+.WastingChoice {
+    text-align: center;
+}
+
+.WastingChoice-header {
+    background-color: #E1F5FE;
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+}
+
+.WastingOptions {
+    border: none;
+    border-radius: 5%;
+    color: black;
+    padding: 5%;
+    margin: 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    width: 30%;
+}
+
+.WastingOptions :focus {
+    outline: thin;
+    box-shadow: transparent;
+}
+
+#OnlyWaste {
+    background-color: #FCB3B3;
+}
+
+#Efficient {
+    background-color: #B3E5FC;
+}
