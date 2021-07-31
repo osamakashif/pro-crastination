@@ -1,91 +1,79 @@
 .Clock {
     margin: auto;
-    margin-top: 50px;
+    margin-top: 4rem;
     width:40%;
     position: relative;
 }
 
-#Clock,
 .Clock12 {
     position: absolute;
-    top: 20%;
-    left: 48%;
+    top: 15%;
+    left: 45%;
     z-index: 1;
 }
-#Clock,
 .Clock1 {
     position: absolute;
-    top: 72%;
-    left: 48%;
+    top: 20%;
+    left: 60%;
     z-index: 1;
 }
-#Clock,
 .Clock2 {
     position: absolute;
-    top: 25%;
-    left: 41%;
+    top: 30%;
+    left: 70%;
     z-index: 1;
 }
-#Clock,
 .Clock3 {
     position: absolute;
-    top: 24%;
-    left: 55%;
+    top: 45%;
+    left: 75%;
     z-index: 1;
 }
-#Clock,
 .Clock4 {
     position: absolute;
-    top: 68%;
-    left: 41%;
+    top: 60%;
+    left: 70%;
     z-index: 1;
 }
-#Clock,
 .Clock5 {
     position: absolute;
-    top: 68%;
-    left: 55%;
+    top: 70%;
+    left: 60%;
     z-index: 1;
 }
-#Clock,
 .Clock6 {
     position: absolute;
-    top: 59%;
-    left: 37%;
+    top: 75%;
+    left: 45%;
     z-index: 1;
 }
-#Clock,
 .Clock7 {
     position: absolute;
-    top: 59%;
-    left: 59%;
+    top: 70%;
+    left: 30%;
     z-index: 1;
 }
-#Clock,
 .Clock8 {
     position: absolute;
-    top: 33%;
-    left: 37%;
+    top: 60%;
+    left: 20%;
     z-index: 1;
 }
-#Clock,
 .Clock9 {
     position: absolute;
-    top: 33%;
-    left: 59%;
+    top: 45%;
+    left: 15%;
     z-index: 1;
 }
-#Clock,
 .Clock10 {
     position: absolute;
-    top: 45%;
-    left: 36%;
+    top: 30%;
+    left: 20%;
     z-index: 1;
 }
-#clockthing,
 .Clock11 {
     position: absolute;
-    top: 45%;
-    left: 60%;
+    top: 20%;
+    left: 30%;
     z-index: 1;
 }
