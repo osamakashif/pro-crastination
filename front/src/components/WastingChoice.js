@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './WastingChoice.css';
-import './Main.css';
+//import './Main.css';
 
 const WastingChoice = ({ username = "" }) => {
     return (
@@ -10,8 +10,11 @@ const WastingChoice = ({ username = "" }) => {
                 <h1>Hi {username}</h1>
             </header>
             <h1>What would you like to do today?</h1>
-            <NavLink to="/Wasting_Time"><button className="WastingOptions" id="OnlyWaste">Waste Time</button></NavLink>
-            <button className="WastingOptions" id="Efficient">Waste Time <i>efficiently</i></button>
+            <div className="Buttons">
+                <NavLink to="/Wasting_Time"  className="WastingOptions" id="OnlyWaste">Waste Time</NavLink>
+                <NavLink to="/"className="WastingOptions" id="YourWay">Waste Time <i>your way</i></NavLink>
+                <NavLink to="/" className="WastingOptions" id="Efficient">Waste Time <i>efficiently</i></NavLink>
+            </div>
         </div>
     );
 }
