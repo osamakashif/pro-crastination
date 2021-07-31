@@ -13,7 +13,9 @@ async function login(event) {
         console.log(res.status);
         window.location = "/Wasting_Choice"
     } catch (err){
-        alert(err);
+        //alert("Username or password is incorrect. Please try again.")
+        //alert(err);
+        document.getElementById("incorrectLogin").style.display = "contents";
     } finally {
         document.getElementById("loginName").value = null
         document.getElementById("loginPass").value = null
@@ -31,7 +33,8 @@ async function register(event) {
             alert("Register Successful")
             window.location = "/Wasting_Choice" 
         } else {
-            alert("Passwords do not match")
+            // alert("Passwords do not match")
+            document.getElementById("passMismatch").style.display = "contents";
         }
     } catch (err){
         alert("Error signing up")
@@ -63,6 +66,7 @@ function Main() {
                     <label for="pass">Password:&nbsp;&nbsp;</label>
                     <input type="text" type="password" id="loginPass"/>
                 </div>
+                <label id="incorrectLogin" style={{display:'none', color:"#ff001a"}}>Username or password is incorrect. Please try again.</label>
                 <button className="Main-loginButton" onClick={login}>Log In</button>
             </form>
             <form className="Main-register">
@@ -79,6 +83,7 @@ function Main() {
                     <label for="confirmPass">Confirm Password:&nbsp;&nbsp;</label>
                     <input type="text" type="password" id="confirmPass"/>
                 </div>
+                <label id="passMismatch" style={{display:'none', color:"#ff001a"}}>Passwords do not match!</label>
                 <button className="Main-registerButton" onClick={register}>Register</button>
             </form>
         </div>

@@ -1,5 +1,6 @@
 .WastingChoice {
     text-align: center;
+    animation: fadein 1s;
 }
 
 .WastingChoice-header {
@@ -12,6 +13,7 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: black;
+    animation: fadein 1s;
 }
 
 .WastingOptions {
@@ -28,7 +30,8 @@
 }
 
 .Buttons {
-    display: flex;
+    padding:3rem;
+    display: inline-flex;
     justify-content: space-evenly;
     flex-direction:row;
     gap: 2rem;
@@ -38,6 +41,14 @@
     outline: thin;
     box-shadow: transparent;
 }
+
+.WastingOptions:hover{
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
 
 #OnlyWaste {
     background-color: #FCB3B3;
@@ -51,3 +62,7 @@
     background-color: #B3FCB6;
 }
 
+@keyframes fadein {
+    from { opacity: 0; margin-top:-1rem; }
+    to   { opacity: 1; margin-top:0;}
+}
