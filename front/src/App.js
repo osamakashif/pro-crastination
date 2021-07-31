@@ -11,8 +11,11 @@ function App() {
         <Route exact path="/">
           <Main />
         </Route>
-        <Route path="/wasting_choice">
+        <Route path="/Wasting_Choice">
           <WastingChoice username="test" />
+        </Route>
+        <Route path="/Wasting_Time">
+          <WastingChoice username="Lucy" />
         </Route>
       </ Switch>
     </Router>
