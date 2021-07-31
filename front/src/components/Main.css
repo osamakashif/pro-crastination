@@ -83,6 +83,7 @@
     border-color: #B3E5FC;
     padding: 0.2%;
     cursor: pointer;
+    transition: transform .5s ease-out;
   }
 
   .Main-loginButton:hover, .Main-registerButton:hover, .Main-wasteTime:hover {
@@ -102,7 +103,9 @@
     border-color: #B3E5FC;
     font-size:200%;
     cursor: pointer;
+    transition: transform .5s ease-out;
   }
+
   @keyframes App-logo-spin {
     from {
       transform: rotate(0deg);
@@ -115,4 +118,6 @@
   @keyframes fadein {
     from { opacity: 0; margin-top:-1rem; }
     to   { opacity: 1; margin-top:0;}
-}
+  }
+
+

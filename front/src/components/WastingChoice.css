@@ -27,6 +27,7 @@
     cursor: pointer;
     flex: 1;
     display:inline-grid;
+    transition: transform .5s ease-out;
 }
 
 .Buttons {
