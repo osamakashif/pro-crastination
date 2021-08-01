@@ -3,7 +3,8 @@ import './App.css';
 import Main from './components/Main';
 import WastingChoice from './components/WastingChoice';
 import WastingTime from './components/WastingTime';
-import WastingTimeYourWay from './components/WastingTimeYourWay';
+import YourActivity from './components/YourActivity';
+import WastingTimeEfficiently from './components/WastingTimeEfficiently';
 import WastingTimeMoreEfficiently from './components/WastingTimeMoreEfficiently';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { useState } from 'react';
@@ -24,6 +25,9 @@ function App() {
         </Route>
         <Route path="/Wasting_Time_Your_Way">
           <WastingTimeYourWay />
+        </Route>
+        <Route path="/Your_Activity">
+          <YourActivity />
         </Route>
         <Route path="/Wasting_Time_More_Efficiently">
           <WastingTimeMoreEfficiently />

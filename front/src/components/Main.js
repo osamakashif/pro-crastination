@@ -5,12 +5,7 @@ import './Main.css';
 import { useHistory } from 'react-router-dom';
 import axios from 'axios';
 
-
-
-
-
 function Main({ user, setUser }) {
-
     const history = useHistory();
     //This function is executed when user clicks on login
     async function login(event) {
