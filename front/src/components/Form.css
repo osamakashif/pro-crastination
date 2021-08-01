@@ -1,0 +1,44 @@
+.Form {
+    width: 70%;
+    border: solid black 5px;
+    border-radius: 3%;
+    display: inline-table;
+    margin: 3%;
+}
+
+.AddActivity {
+    display: flex;
+    flex-direction: row;
+}
+
+.AddActivityField {
+    margin-left: 10%;
+    margin-top: 1.4%;
+    margin-bottom: 2%;
+    display: table;
+    width: 100%;
+    border-radius: 25px;
+    border-width: 1px;
+}
+
+.AddActivityButton {
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    background-color: #B3E5FC;
+    border-color: #B3E5FC;
+    padding: 0.2%;
+    cursor: pointer;
+    transition: transform .5s ease-out;
+}
+
+.AddActivityButton:hover {
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
