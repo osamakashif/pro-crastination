@@ -103,6 +103,7 @@ app.post('/signup', (req, res) => {
 
 //This API changes the list for the user specified in the request
 app.post('/changelist', (req, res) => {
+  console.log(req.body["list"])
   db.collection('Users').updateOne({"username": req.body["username"]}, {$set: {"list": req.body["list"]}})
   res.sendStatus(200)
 })
