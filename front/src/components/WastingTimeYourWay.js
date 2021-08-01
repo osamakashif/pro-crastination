@@ -12,7 +12,7 @@ const WastingTimeYourWay = ({ username = "" }) => {
                 <h1>Hi {username}</h1>
             </header>
             <Form input={input} setInput={setInput} list={list} setList={setList}/>
-            <NavLink to="/Wasting_Time"><button className="EmphasisedOption">Begin YOUR WAY of procrastrinating</button></NavLink>
+            <NavLink to="/Your_Activity"><button className="EmphasisedOption">Begin YOUR WAY of procrastrinating</button></NavLink>
         </div>
     );
 }
