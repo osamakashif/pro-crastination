@@ -24,7 +24,7 @@ function App() {
           <WastingTime />
         </Route>
         <Route path="/Wasting_Time_Your_Way">
-          <WastingTimeYourWay />
+          <WastingTimeYourWay user = {user}/>
         </Route>
         <Route path="/Your_Activity">
           <YourActivity />
