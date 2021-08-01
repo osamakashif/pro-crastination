@@ -1,6 +1,6 @@
 import React from 'react';
 import './WastingTime.css';
-import {FaWater, FaNewspaper, FaReact, FaWikipediaW, FaUniversity, FaRunning, FaGoogleDrive, FaBook, FaGraduationCap, FaPen, FaLanguage, FaDollarSign} from 'react-icons/fa';
+import {FaWater, FaNewspaper, FaReact, FaWikipediaW, FaUniversity, FaRunning, FaGoogleDrive, FaBook, FaGraduationCap, FaPen, FaLanguage, FaCoins} from 'react-icons/fa';
 
 function WastingTimeMoreEfficiently (){
     return (
@@ -30,7 +30,7 @@ function WastingTimeMoreEfficiently (){
                 </div>
                 <div className="Clock3">
                     <a href="https://reactjs.org/" target="_blank">
-                        <FaReact size='40%'color="B3E5FC"/>
+                        <FaReact size='100%'color="B3E5FC"/>
                     </a>
                 </div>
                 <div className="Clock4">
@@ -40,7 +40,7 @@ function WastingTimeMoreEfficiently (){
                 </div>
                 <div className="Clock5">
                     <a href="https://www.marketwatch.com/" target="_blank">
-                        <FaDollarSign size='80%'color="B3E5FC"/>
+                        <FaCoins size='100%'color="B3E5FC"/>
                     </a>
                 </div>
                 <div className="Clock6">
