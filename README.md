@@ -8,4 +8,10 @@ This application was made for the WDCCxSESA Hackathon for 2021, which had the th
 ## Techstack
 We have used a MERN stack for the application - MongoDB for the database, Express for the backend, ReactJS for the frontend, and lastly NodeJS for the backend as well.>
 
-
+## Screenshots
+<img src="screenshots/home.jpg" />
+<img src="screenshots/wasting_choices.jpg" />
+<img src="screenshots/wasting_time.jpg" />
+<img src="screenshots/wasting_time_efficiently.jpg" />
+<img src="screenshots/your_list.jpg" />
+<img src="screenshots/activity.jpg" />
