@@ -11,6 +11,7 @@ import { useState } from 'react';
 
 function App() {
   const [user, setUser] = useState('')
+  const [list, setList] = useState([]);
   return (
     <Router>
       <Switch>
@@ -24,10 +25,10 @@ function App() {
           <WastingTime />
         </Route>
         <Route path="/Wasting_Time_Your_Way">
-          <WastingTimeYourWay user = {user}/>
+          <WastingTimeYourWay user = {user} list = {list} setList = {setList}/>
         </Route>
         <Route path="/Your_Activity">
-          <YourActivity />
+          <YourActivity list = {list}/>
         </Route>
         <Route path="/Wasting_Time_More_Efficiently">
           <WastingTimeMoreEfficiently />
