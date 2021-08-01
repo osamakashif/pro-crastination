@@ -1,14 +1,12 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import ListItem from './ListItem';
-import './List.css'
+import React from "react";
+import ListItem from "./ListItem";
 
-const List = ({ list = [] }) => {
+const List = ({ list, setList }) => {
     return (
-        <div className="List">
-            {list && list.map((listItem, index) => <ListItem item={listItem}/>)}
+        <div>
+            {list && list.map((listItem) => <ListItem item={listItem} list={list} setList={setList} />)}
         </div>
     );
-}
+};
 
 export default List;
