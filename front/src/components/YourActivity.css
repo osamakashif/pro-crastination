@@ -2,6 +2,19 @@
     text-align: center;
     animation: fadein 1s;
 }
+.YourActivity-header {
+    background-color: #E1F5FE;
+    height: 35%;
+    padding:2rem;
+    align-items: center;
+    font-size: calc(10px + 1vmin);
+    color: black;
+}
+.YourActivity-activity {
+    padding-top: 10rem;
+    font-size: calc(10px + 15vmin);
+    color: black;
+}
 .YourActivity-button {
     margin-top:3%;
     padding:0.5%;
@@ -11,15 +24,4 @@
     border-color: #B3E5FC;
     font-size:140%;
     cursor: pointer;
-}
-.YourActivity-header {
-    background-color: #E1F5FE;
-    width: 100%;
-    height: 35%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 1vmin);
-    color: black;
 }
