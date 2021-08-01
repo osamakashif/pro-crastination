@@ -16,15 +16,15 @@
     margin-top: 1.4%;
     margin-bottom: 2%;
     display: table;
-    width: 35%;
+    width: 100%;
     border-radius: 25px;
     border-width: 1px;
 }
 
 .AddActivityButton {
-    width: 20%;
+    width: 30%;
     margin-top: 2%;
-    margin-left: 40%;
+    margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 2%;
     border-radius: 5px;
