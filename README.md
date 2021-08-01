@@ -8,7 +8,14 @@ This application was made for the WDCCxSESA Hackathon for 2021, which had the th
 ## Techstack
 We have used a MERN stack for the application - MongoDB for the database, Express for the backend, ReactJS for the frontend, and lastly NodeJS for the backend as well.
 
+### Tools
+You need MongoDB (and possibly MongoDB compass for the GUI tool), NodeJS (with npm, including React).
+
 ## Clone and setup
+Once you have the tools, clone the repository. Go to the 'front' and 'back' directories and run `npm install` in each.
+Then open MongoDB, create a 'ProcraStation' database and in collections write 'Users'.
+After that, on a terminal in the 'API' directory within the 'back' directory run `node connect.js`. This would start the backend. (Note: The backend is hard-coded to be hosted on localhost:4000.)
+Lastly, go to the 'front' directory and run `npm start`. This will start the front end and you can use the application.
 
 ## Application flow
 First you are at the homepage. Here you can sign up and/or login. If you sign up it automatically loads the next page as if you logged in.
