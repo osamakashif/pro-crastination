@@ -4,9 +4,8 @@ import Form from './Form';
 import './WastingTimeYourWay.css';
 import axios from 'axios';
 
-const WastingTimeYourWay = ({ user }) => {
+const WastingTimeYourWay = ({ user, list, setList }) => {
     const [input, setInput] = useState("");
-    const [list, setList] = useState([]);
     async function dispList(){
         var url = 'http://localhost:4000/list';
         const res = await axios.post(url, { username: user});
