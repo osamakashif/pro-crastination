@@ -14,10 +14,12 @@ const Form = ({ input, setInput, list, setList }) => {
     };
 
     return (
-        <form className="List" onSubmit={onFormSubmit}>
+        <form className="Form" onSubmit={onFormSubmit}>
             <List list={list} setList={setList} />
-            <input type="text" placeholder="Enter an activity to procrastinate with... ;)" value={input} required onChange={onInputChange} />
-            <button type="submit">Add</button>
+            <div className="AddActivity">
+                <input type="text" placeholder="Enter an activity to procrastinate with... ;)" className="AddActivityField" value={input} required onChange={onInputChange} />
+                <button type="submit" className="AddActivityButton">Add</button>
+            </div>
         </form>
     );
 }
