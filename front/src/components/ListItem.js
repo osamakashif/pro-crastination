@@ -2,15 +2,19 @@ import React from 'react';
 import { IoMdTrash } from 'react-icons/io'
 import './ListItem.css'
 
-const ListItem = ({ item = "" }) => {
+const ListItem = ({item, list, setList}) => {
+    
+    // const currentItem = item.item;
+    const deleteItem = () => {
+        let id = item.id;
+        let updatedList = list.filter((listItem) => listItem.id !== id );
+        setList(updatedList);
+    }
     return (
-        <div className="ListItem">
-            <p>{item}</p>
-            <IoMdTrash className="Trash" />
-            {/* <p>{item}&#160;&#160;&#160;&#160;<IoMdTrash className="Trash"/> </p>  */}
-
-            {/* &#160; or &nbsp; are non-breakable spaces as HTML is whitespace collapsible. 4 used to act like a tab. */}
-        </div >
+        <li className="ListItem" key={item.id}>
+            <p>{item.title}</p>
+            <IoMdTrash className="Trash" onClick={deleteItem}/>
+        </li >
     );
 }
 
