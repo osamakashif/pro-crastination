@@ -1,7 +1,6 @@
 import React from 'react';
-import { NavLink, useParams } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './WastingChoice.css';
-//import './Main.css';
  
 const WastingChoice = ({ user }) => {
     return (

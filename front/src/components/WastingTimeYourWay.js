@@ -6,15 +6,11 @@ import axios from 'axios';
 
 const WastingTimeYourWay = ({ user, list, setList }) => {
     const [input, setInput] = useState("");
-    async function dispList(){
-        var url = 'http://localhost:4000/list';
-        const res = await axios.post(url, { username: user});
-        // alert(res);
-        return await res
-    }
+    const url = 'http://localhost:4000/list';
+
     useEffect(() => {
         // Query mongodb using fetch
-        dispList().then(response => {
+        axios.post(url, { username: user}).then(response => {
             const data = response.data;
 
             console.log('Response', JSON.stringify(response))
@@ -30,7 +26,7 @@ const WastingTimeYourWay = ({ user, list, setList }) => {
             );
         } )
         
-    }, [user])
+    }, [user, setList])
     return (
         <div className="WastingTimeYourWay">
             <header className="WastingTimeYourWay-header">

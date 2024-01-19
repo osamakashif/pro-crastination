@@ -12,7 +12,7 @@ function Main({ user, setUser }) {
         event.preventDefault();
         var url = 'http://localhost:4000/login';
         try{
-            const res = await axios.post(url, { username: document.getElementById("loginName").value, password: document.getElementById("loginPass").value });
+            await axios.post(url, { username: document.getElementById("loginName").value, password: document.getElementById("loginPass").value });
             const userName = document.getElementById("loginName").value
             setUser(userName)
             console.log(user);
@@ -34,7 +34,7 @@ function Main({ user, setUser }) {
                 console.log(res.status);
                 const userName = document.getElementById("registerName").value
                 setUser(userName)
-                alert("Registeration Successful")
+                alert("Registration Successful")
                 history.push('/Wasting_Choice')
             } else {
                 //alert("Passwords do not match")
@@ -69,7 +69,7 @@ function Main({ user, setUser }) {
                     </div>
                     <div className="Main-loginPass">
                         <label for="pass">Password:&nbsp;&nbsp;</label>
-                        <input type="text" type="password" id="loginPass" />
+                        <input type="password" id="loginPass" />
                     </div>
                     <label id="incorrectLogin" style={{display:'none', color:"#ff001a"}}>Username or password is incorrect. Please try again.</label>
                     <button className="Main-loginButton" onClick={login}>Log In</button>
@@ -82,11 +82,11 @@ function Main({ user, setUser }) {
                     </div>
                     <div className="Main-registerPass">
                         <label for="pass">Password:&nbsp;&nbsp;</label>
-                        <input type="text" type="password" id="registerPass" />
+                        <input type="password" id="registerPass" />
                     </div>
                     <div className="Main-confirmPass">
                         <label for="confirmPass">Confirm Password:&nbsp;&nbsp;</label>
-                        <input type="text" type="password" id="confirmPass" />
+                        <input type="password" id="confirmPass" />
                     </div>
                     <label id="passMismatch" style={{display:'none', color:"#ff001a"}}>Passwords do not match!</label>
                     <button className="Main-registerButton" onClick={register}>Register</button>

@@ -4,10 +4,7 @@ import './Form.css'
 import {v4 as uuidv4} from 'uuid';
 import axios from 'axios';
 
-const Form = ({ input, setInput, list, setList, user }) => {
-    const onInputChange = (event) => {
-        setInput(event.target.value);
-    };
+const Form = ({ list, setList, user }) => {
 
     const onFormSubmit = (event) => {
        event.preventDefault();
@@ -23,7 +20,7 @@ const Form = ({ input, setInput, list, setList, user }) => {
 
     async function updateList(updatedList){
         var url = 'http://localhost:4000/changelist';
-        const res = await axios.post(url, { username: user, list: updatedList});
+        await axios.post(url, { username: user, list: updatedList});
     }
 
     return (

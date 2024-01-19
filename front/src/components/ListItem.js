@@ -19,7 +19,7 @@ const ListItem = ({item, list, setList, user}) => {
 
     async function updateList(updatedList){
         var url = 'http://localhost:4000/changelist';
-        const res = await axios.post(url, { username: user, list: updatedList});
+        await axios.post(url, { username: user, list: updatedList});
     }
     return (
         <div className="ListItem" key={item.id}>

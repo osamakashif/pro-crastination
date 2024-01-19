@@ -1,23 +1,22 @@
-import React, { useState, useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useState, useEffect, useCallback } from 'react';
 import './YourActivity.css';
 
 function YourActivity({ list }) {
 
     const [activity, setActivity] = useState("");
 
-    useEffect( () => {
-        getRandomActivity();
-    }, [])
-
-    const getRandomActivity = () => {
-        if (list.length != 0) {
+    const getRandomActivity = useCallback(() => {
+        if (list.length !== 0) {
             let item = list[Math.floor(Math.random() * list.length)];
             setActivity(item.title);
         } else {
             setActivity("Your Activity");
         }
-    }
+    }, [list])
+
+    useEffect( () => {
+        getRandomActivity();
+    }, [getRandomActivity])
 
     return (
         <div className="YourActivity">
